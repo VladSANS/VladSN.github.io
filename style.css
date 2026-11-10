@@ -9,6 +9,7 @@
 }
 body {
     font-family: "ZZZ", sans-serif;
+    background-color: #000;
 }
 .photo-box {
     width: 150px;
@@ -25,14 +26,36 @@ body {
 }
 .left {
     padding: 20px;
-    background-color: #E3FFE0;
     display: flex;
     flex-direction: column;
     width: 300px;
+    background-color: #eec25b;
 }
 .line {
     width: 100px;
     border: none;
     height: 3px;
     background-color: #000;
+}
+.right {
+    flex: 1;
+    padding: 30px;
+    background-color:#62f564;
+}
+.line_right {
+    border: none;
+    height: 2px;
+    background-color: #000;
+}
+.titul {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.wallpaper {
+    width: 800px;
+    background-color: #000;
+    overflow: hidden;
+    margin: auto;
 }
